@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice recorder</title>
+    <style>
+        * {
+            margin: 0p;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            padding: 7px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="startRecording">Start</button>
+    <button id="stopRecording">Stop</button>
+    <br>
+    <p id="isRecording">Click start button to record</p>
+    <audio src="" id="audioElement" controls></audio>
+</body>
+
+
+<script src="app.js"></script>
+
+
+</html>
